@@ -7,9 +7,11 @@ const baseConf = {
   grant: ['GM_getValue', 'GM_setValue', 'GM_xmlhttpRequest', 'unsafeWindow'],
   require: [
     'https://cdn.bootcss.com/react/16.13.1/umd/react.production.min.js',
-    'https://cdn.bootcss.com/react/16.13.1/umd/react-dom.production.min.js',
+    'https://cdn.bootcss.com/react-dom/16.13.1/umd/react-dom.production.min.js',
   ],
 };
+
+exports.baseConf = baseConf;
 
 exports.getBanner = () => `
 // ==UserScript==

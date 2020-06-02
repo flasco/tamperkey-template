@@ -7,7 +7,7 @@ const Xuasd: React.FC<{ asd: string }> = ({ asd }) => {
   return (
     <div className={styles.asd}>
       {asd}
-      <span className="asd">123213</span>
+      <span className="asd">asd</span>
     </div>
   );
 };
