@@ -1,12 +1,13 @@
 // rollup.config.js
 const babel = require('rollup-plugin-babel');
+
 const postcss = require('../third-party/postcss');
 
 module.exports = {
   input: 'src/index.tsx',
   output: {
     file: 'local/temp.user.js',
-    format: 'iife',
+    format: 'umd',
     globals: {
       react: 'React',
       'react-dom': 'ReactDOM',
@@ -16,6 +17,7 @@ module.exports = {
     postcss({
       extensions: ['.scss', '.css'],
     }),
+
     babel({
       babelrc: false,
       presets: [

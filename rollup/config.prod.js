@@ -1,8 +1,8 @@
 // rollup.config.js
-const merge = require('webpack-merge');
-const base = require('./rollup.config');
 const { uglify } = require('rollup-plugin-uglify');
+const merge = require('webpack-merge');
 
+const base = require('./config.base');
 const { getBanner } = require('../config/tm-ext');
 
 module.exports = merge(base, {

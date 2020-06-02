@@ -5,10 +5,9 @@ const path = require('path');
 const fs = require('fs');
 const ejs = require('ejs');
 
-const base = require('./rollup.config');
-
+const base = require('./config.base');
 const { baseConf } = require('../config/tm-ext');
-const fileP = path.resolve(__dirname, './public/index.ejs');
+const fileP = path.resolve(__dirname, '../public/index.ejs');
 
 const config = merge(base, {
   output: {
