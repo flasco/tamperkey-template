@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/tampermonkey@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/@types/tampermonkey/download/@types/tampermonkey-4.0.0.tgz#fd654ea1191f6ae7acd7e9ddc19c67ed062a1495"
+  integrity sha1-/WVOoRkfaues1+ndwZxn7QYqFJU=
+
 tslib@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
