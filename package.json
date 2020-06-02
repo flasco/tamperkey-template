@@ -1,0 +1,12 @@
+{
+  "name": "tampermonkey-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
